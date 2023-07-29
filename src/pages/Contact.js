@@ -1,5 +1,5 @@
 import React from "react";
-import PizzaLeft from "../assets/pizzaLeft.jpg";
+import PizzaLeft from "../assets/mariosky2.png";
 import "../styles/Contact.css";
 
 function Contact() {
@@ -10,11 +10,11 @@ function Contact() {
         style={{ backgroundImage: `url(${PizzaLeft})` }}
       ></div>
       <div className="rightSide">
-        <h1> Contact Us</h1>
+        <h1> Get in touch </h1>
 
         <form id="contact-form" method="POST">
           <label htmlFor="name">Full Name</label>
-          <input name="name" placeholder="Enter full name..." type="text" />
+          <input name="name" placeholder="Enter name..." type="text" />
           <label htmlFor="email">Email</label>
           <input name="email" placeholder="Enter email..." type="email" />
           <label htmlFor="message">Message</label>

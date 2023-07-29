@@ -9,9 +9,13 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
+        <a href="http://www.instagram.com"><InstagramIcon /></a> 
+        <a href="http://www.twitter.com"><TwitterIcon /></a> 
+        <a href="http://www.facebook.com"><FacebookIcon /></a> 
+        <a href="http://www.linkedin.com"><LinkedInIcon /></a> 
       </div>
-      <p> &copy; 2021 pedrotechpizza.com</p>
+      <p> &copy; 2023 Carlos Polo</p>
+      <p><a id="credit" target="_blank" href="https://icons8.com/icon/b3EFsmGYNiSl/xbox-controller">Controller</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
     </div>
   );
 }
